@@ -30,7 +30,7 @@ jobs:
           python-version: '3.9.7'
 
       - name: Conda Setup
-        run: |
+      - run: |
           $CONDA/bin/conda env update --file environment.yml --name base
 
       - name: Run Script

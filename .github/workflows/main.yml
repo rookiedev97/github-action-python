@@ -27,10 +27,11 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.9.7'
+          python-version: '3.9.7'    
       - name: Conda Setup
-      - run: |
+        run: |
           $CONDA/bin/conda env update --file environment.yml --name base
+      
       - name: Run Script
-      - run: python script.py
+        run: python script.py
 

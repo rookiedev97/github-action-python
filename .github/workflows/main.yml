@@ -31,7 +31,7 @@ jobs:
 
       - name: Conda Setup
         run: |
-        $CONDA/bin/conda env update --file environment.yml --name base
+          $CONDA/bin/conda env update --file environment.yml --name base
 
       - name: Run Script
       - run: python script.py

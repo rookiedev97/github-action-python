@@ -1,0 +1,8 @@
+name: environment
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python==3.9.7
+  - fastapi==0.73.0
+  - uvicorn==0.17.4
